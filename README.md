@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# stepsonice_cupresults
 
-## Getting Started
+To view the rendered HTML page, open the file in your browser or click the link below:
 
-First, run the development server:
+- Open locally in your browser: HTML/index.htm
+- Quick link: [HTML/index.htm](HTML/index.htm)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Note: GitHub strips iframes in README previews. For a local preview (VS Code or other local markdown viewers) you can embed the page:
+
+<iframe src="HTML/index.htm" width="100%" height="600"></iframe>
+
+If you want to show the HTML source inside this README, paste the contents of HTML/index.htm below:
+
+```html
+<!-- paste the contents of HTML/index.htm here if you want the source displayed -->
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To open the HTML file from the project folder in Windows:
+- In VS Code integrated terminal: start HTML\index.htm
+- From PowerShell: ii .\HTML\index.htm
